@@ -26,5 +26,47 @@ class Produtos
         $this->niveldeestoque = $niveldeestoque;
         $this->descontinuado = $descontinuado;
     }
+    //MÉTODOS
+    //CRIANDO FUNÇÕES USANDO GET E SET
+    function get_codigoproduto()
+    {
+        return $this->codigoproduto;
+    }
+    function get_nomedoproduto()
+    {
+        return $this->nomedoproduto;
+    }
+    function get_codigofornecedor()
+    {
+        return $this->codigofornecedor;
+    }
+    function get_codigocategoria()
+    {
+        return $this->codigocategoria;
+    }
+    function set_quantidadeporunidade($quantidadeporunidade)
+    {
+        $this->quantidadeporunidade = $quantidadeporunidade;
+    }
+    function set_precounitario($precounitario)
+    {
+        $this->precounitario = $precounitario;
+    }
+    function set_unidadesemestoque($unidadesemestoque)
+    {
+        $this->unidadesemestoque = $unidadesemestoque;
+    }
+    function get_unidadespedidas()
+    {
+        return $this->unidadespedidas;
+    }
+    function set_niveldeestoques($niveldeestoque)
+    {
+        $this->niveldeestoque = $niveldeestoque;
+    }
+    function set_descontinuado($descontinuado)
+    {
+        $this->descontinuado = $descontinuado;
+    }
 }
 ?>

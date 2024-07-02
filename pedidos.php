@@ -30,6 +30,8 @@ class Pedidos
         $this->cepdedestino = $cepdedestino;
         $this->paisdedestino = $paisdedestino;
     }
+    //MÉTODOS
+    //CRIANDO FUNÇÕES USANDO GET E SET
     function get_numeropedido()
     {
         return $this->numeropedido;
@@ -53,6 +55,30 @@ class Pedidos
     function get_datadeenvio()
     {
         return $this->datadeenvio;
+    }
+    function get_frete()
+    {
+        return $this->frete;
+    }
+    function get_nomededestinatario()
+    {
+        return $this->nomededestinatario;
+    }
+    function get_enderecodedestinatario()
+    {
+        return $this->enderecodestinatario;
+    }
+    function get_cidadededestino()
+    {
+        return $this->cidadededestino;
+    }
+    function get_cepdedestino()
+    {
+        return $this->cepdedestino;
+    }
+    function get_paisdedestino()
+    {
+        return $this->paisdedestino;
     }
 }
 ?>
